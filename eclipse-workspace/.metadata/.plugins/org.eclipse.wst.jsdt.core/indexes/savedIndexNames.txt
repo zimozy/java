@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+/Users/tim/Code/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+394256261.index
+3380718175.index
+1273476852.index
+3025431139.index
+2896404047.index
+2037985956.index

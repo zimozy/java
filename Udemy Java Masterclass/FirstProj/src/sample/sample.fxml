@@ -1,0 +1,30 @@
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+
+<?import javafx.geometry.Insets?>
+<GridPane
+        xmlns:fx="http://javafx.com/fxml"
+        fx:controller="sample.Controller"
+        maxWidth="Infinity">
+    <padding>
+        <Insets top="10" right="20" bottom="10" left="20"/>
+    </padding>
+    <Text text="Welcome to this app!"
+          GridPane.columnIndex="0"
+          GridPane.rowIndex="0"/>
+    <TextField fx:id="textField"
+               promptText="Type your message here..."
+               GridPane.columnIndex="0"
+               GridPane.rowIndex="1"
+               prefWidth="300"
+               GridPane.hgrow="ALWAYS"
+                onKeyReleased="#keyPress"/>
+    <Button fx:id="sendButton"
+            text="Send"
+            onAction="#popup"
+            GridPane.columnIndex="0"
+            GridPane.rowIndex="2"
+            GridPane.halignment="RIGHT"/>
+</GridPane>
